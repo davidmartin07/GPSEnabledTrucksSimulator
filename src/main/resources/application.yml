@@ -8,6 +8,6 @@ spring:
           - localhost:9092
       bindings:
         producer-out-0:
-          destination: "test"
+          destination: "test" 
     function:
       definition: "producer"
